@@ -21,7 +21,7 @@ import animationData from '../animations/typing.json'
 
 import io from "socket.io-client";
 
-const ENDPOINT = "https://chat-app-backend-alpha-flax.vercel.app";
+const ENDPOINT = "http://localhost:5000";
 var socket, selectedChatCompare;
 
 const SingleChat = ({ fetchAgain, setFetchAgain }) => {
